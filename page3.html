@@ -1,0 +1,34 @@
+<script src="components/loader.js"></script>
+<link rel="stylesheet" href="components/loader.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="./js/index.js"></script>
+<body>
+<ons-toolbar style="background-color:#b8061b;">
+    <div class="center" style="font-size: 25px;color:#ffffff;">REACH US</div>
+</ons-toolbar><br />
+
+<div style="margin:10px;text-align:center;">
+<table align="center">
+    <tr><td align="left"><label style="font-size: 10px;width:85px" class="button--cta1">Contact us</label> </td><td align="left"><ons-button modifier="outline" style="font-size: 10px;width:210px;"> <a href="tel:+914442138222">  +91.44.42138222 </a>&nbsp;&nbsp;&nbsp;<a href="tel:+919841214016">+919841214016</a></ons-button></td></tr>
+    <tr><td align="left" ><label style="font-size: 10px;width:85px" class="button--cta1">Email</label>  </td><td align="left"><ons-button modifier="outline" style="font-size: 10px;width:210px;" onclick="sendEmail2();"> saiceragem@gmail.com</ons-button></td></tr>
+    <tr><td align="left"><label style="font-size: 10px;width:85px" class="button--cta1">Facebook</label> </td><td align="left"><a href="#" onclick="window.open('https://www.facebook.com/profile.php?id=100005805407946&fref=ts', '_system');"><ons-button modifier="outline" style="font-size: 10px;width:210px;">http://www.facebook.com/srisaihealthcare</ons-button></a></td></tr>
+    <tr><td align="left"><label style="font-size: 10px;width:85px"l class="button--cta1">Web</label> </td><td align="left"> <a href="#" onclick="window.open('http://www.srisaihealthcare.com', '_system');"><ons-button modifier="outline" style="font-size: 10px;width:210px;"> http://www.srisaihealthcare.com</ons-button></a></td></tr>
+    <tr><td align="left"><label style="font-size: 10px;width:85px" class="button--cta1">HQ</label> </td><td align="left"><a href="#" onclick="window.open('http://www.ceragem.com', '_system');"><ons-button modifier="outline" style="font-size: 10px;width:210px;">  http://www.ceragem.com</ons-button></a></td></tr>
+    <tr><td align="left"><label style="font-size: 8px;width:85px" class="button--cta1">Address </label></td><td align="left"><ons-button modifier="outline" style="font-size: 10px;width:210px;"> 28,Velachery Main Rd,Chennai-42,India</ons-button></td></tr></table>
+</div>
+<br /><br />
+<div class="button--lightactive" style="margin:5px;width:96%;text-align:center;"><label>EMAIL TO US</label></div>
+
+<div style="margin:10px;text-align:center"><table align="center">
+    <tr><td align="left"><label style="line-height: 2em;font-size: 10px;width:85px" class="button--cta1">NAME</label></td>
+        <td align="left"><input type="text" class="text-input" placeholder="" value="" style="width:210px;" name="name1" id="name1"></td></tr>
+    <tr><td align="left"><label style="line-height: 2em;font-size: 10px;width:85px" class="button--cta1">Email</label></td>
+        <td align="left"><input type="text" class="text-input" placeholder="" value="" style="width:210px;" name="email1" id="email1"></td></tr>
+    <tr><td align="left"><label style="line-height: 2em;font-size: 10px;width:85px" class="button--cta1">Subject</label></td>
+        <td align="left"><input type="text" class="text-input" placeholder="" value=""  style="width:210px;" name="subj" id="subj"></td></tr>
+    <tr><td align="left"><label style="line-height: 2em;font-size: 10px;width:85px" class="button--cta1">Message</label></td>
+        <td align="left"><textarea class="textarea" rows="3" cols="23" placeholder="" name="body1" id="body1"></textarea><br /><br /></td></tr></table>
+    <div style="text-align:center">
+
+        <button class="button"  onclick="sendEmail();" > SEND </button></div>
+</div> </body>
