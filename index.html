@@ -19,19 +19,19 @@
             vbody+=   '<h1>Email :</h1>' + document.getElementById('email1').value + '<br />';
             vbody+=   '<h1>Subject :</h1>' + document.getElementById('subj').value + '<br />';
             vbody+= '<h1>Message :</h1>' + document.getElementById('body1').value + '<br />';
-            cordova.plugins.email.open({to: 'mahjonggary@hotmail.com',
+            cordova.plugins.email.open({to: 'saiceragem@gmail.com',
                 cc:      'rrajareshi@gmail.com',
                 bcc:     ['rrajareshi@gmail.com'],
-                subject: 'APP:DrinkTea Feedback',
+                subject: 'APP:CERAGEM',
                 body:    vbody,
                 isHtml:  true });
             return;
         }
         function sendEmail2(){
-            cordova.plugins.email.open({to: 'friends@drinkteaartworks.com.sg',
+            cordova.plugins.email.open({to: 'saiceragem@gmail.com',
                 cc:      'rrajareshi@gmail.com',
                 bcc:     ['rrajareshi@gmail.com'],
-                subject: 'APP:DrinkTea Feedback',
+                subject: 'APP:CERAGEM',
                 body:    ' ',
                 isHtml:  false });
             return;
