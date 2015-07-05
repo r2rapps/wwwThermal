@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.r2r.ceragem" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.r2r.ceragem" version="1.0.1">
   <name>CERAGEM</name>
   <description>CERAGEM.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">CERAGEM Team</author>
